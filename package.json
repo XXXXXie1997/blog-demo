@@ -2,17 +2,18 @@
   "name": "blog-client",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "XXXXXie1997 <1416849251@qq.com>",
+  "author": "ruoyu <hunger@jirengu.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "zip": "rm -f *.zip && zip  -r `git branch | grep '\\* ' | cut -d ' ' -f 2`.zip . -x 'node_modules/*'"
   },
   "dependencies": {
-    "axios": "^0.21.1",
-    "element-ui": "^2.14.1",
-    "less-loader": "^7.2.0",
+    "axios": "^0.18.0",
+    "element-ui": "^2.3.9",
+    "less-loader": "^4.1.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
