@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>© xiedaimala.com 2018 wechat: xiedaimala01</p>
+    <p>© 这里应该就写一般Footer会写的东西</p>
   </footer>
 </template>
 
