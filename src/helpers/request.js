@@ -2,7 +2,7 @@ import axios from 'axios'
 import { Message } from 'element-ui'
 
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
-//axios.defaults.baseURL = '//blog-server.hunger-valley.com'
+// axios.defaults.baseURL = '//blog-server.hunger-valley.com'
 axios.defaults.baseURL = '//localhost:3006'
 
 window.request = request
