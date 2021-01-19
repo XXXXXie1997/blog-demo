@@ -17,6 +17,7 @@ export default {
   },
 
   logout() {
+    localStorage.removeItem('token')
     return request(URL.LOGOUT)
   },
 
